@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using TodoApi.Models;
 using TodoApi.Services;
+using TodoApi.ViewModel;
 
 namespace TodoApi.Controllers
 {
@@ -35,19 +36,24 @@ namespace TodoApi.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Todo>> CreateTodo(Todo todo)
+        public async Task<ActionResult<Todo>> CreateTodo(ToDoViewModel todoVM)
         {
+
+            Todo todo = new Todo();
+
+            todo.Id = Guid.NewGuid();
+            todo.Task = todoVM.Task;
+
             var createdTodo = await _service.CreateTodo(todo);
             return CreatedAtAction(nameof(GetTodo), new { id = createdTodo.Id }, createdTodo);
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateTodo(Guid id, Todo todo)
+        public async Task<IActionResult> UpdateTodo(Guid id, ToDoViewModel todoVM)
         {
-            if (id != todo.Id)
-            {
-                return BadRequest();
-            }
+            Todo todo = new Todo();
+            todo.Id = id;
+            todo.Task = todoVM.Task;
 
             await _service.UpdateTodo(id, todo);
             return NoContent();

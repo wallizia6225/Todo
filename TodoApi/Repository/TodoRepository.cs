@@ -25,7 +25,6 @@ namespace TodoApi.Repository
 
         public async Task<Todo> CreateTodo(Todo todo)
         {
-            todo.Id = Guid.NewGuid();
             _context.Todos.Add(todo);
             await _context.SaveChangesAsync();
             return todo;

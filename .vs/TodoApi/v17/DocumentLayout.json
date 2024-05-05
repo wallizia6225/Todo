@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Reem\\source\\repos\\TodoApi\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{31DD323F-F090-42A2-B7E0-FFF82EE62822}|TodoApi\\TodoApi.csproj|c:\\users\\reem\\source\\repos\\todoapi\\todoapi\\controllers\\todoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DD323F-F090-42A2-B7E0-FFF82EE62822}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\controllers\\todoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31DD323F-F090-42A2-B7E0-FFF82EE62822}|TodoApi\\TodoApi.csproj|c:\\users\\reem\\source\\repos\\todoapi\\todoapi\\viewmodel\\todoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31DD323F-F090-42A2-B7E0-FFF82EE62822}|TodoApi\\TodoApi.csproj|solutionrelative:todoapi\\viewmodel\\todoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TodosController.cs",
+              "DocumentMoniker": "C:\\Users\\Reem\\source\\repos\\TodoApi\\TodoApi\\Controllers\\TodosController.cs",
+              "RelativeDocumentMoniker": "TodoApi\\Controllers\\TodosController.cs",
+              "ToolTip": "C:\\Users\\Reem\\source\\repos\\TodoApi\\TodoApi\\Controllers\\TodosController.cs",
+              "RelativeToolTip": "TodoApi\\Controllers\\TodosController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAMwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T19:05:03.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ToDoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Reem\\source\\repos\\TodoApi\\TodoApi\\ViewModel\\ToDoViewModel.cs",
+              "RelativeDocumentMoniker": "TodoApi\\ViewModel\\ToDoViewModel.cs",
+              "ToolTip": "C:\\Users\\Reem\\source\\repos\\TodoApi\\TodoApi\\ViewModel\\ToDoViewModel.cs",
+              "RelativeToolTip": "TodoApi\\ViewModel\\ToDoViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T19:04:54.471Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
